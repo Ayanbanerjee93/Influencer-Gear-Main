@@ -36,6 +36,10 @@
                     Width: 731px;
                     Height: 52px;
                 }
+                
+                .left-nav h1 {
+                    font-size: 35px;
+                }
                 /* -------------------Right navbar Ul / Li is here ------*/
                 
                 .right-nav ul {
@@ -87,7 +91,7 @@
                 .heading {
                     font-style: normal;
                     font-weight: bolder;
-                    font-size: 27px;
+                    font-size: 40px;
                     line-height: 70px;
                     color: #3A3A3A;
                 }
@@ -95,7 +99,7 @@
                 
                 .para {
                     font-style: normal;
-                    font-size: 10px;
+                    font-size: 14px;
                     line-height: 24px;
                     color: #3A3A3A;
                 }
@@ -107,12 +111,11 @@
                 
                 .link-btn a {
                     text-decoration: none;
-                    font-Style: small;
-                    font-Size: 10px;
-                    Line-height: 24px;
+                    font-Style: normal;
+                    font-Size: 18px;
+                    Line-height: 54px;
                     color: #FFFFFF;
                     background-color: #E02C6D;
-                    width: 136px;
                     padding: 6px;
                     padding-left: 11px;
                     border-radius: 36px;
@@ -206,6 +209,8 @@
                 
                 .flex-collections {
                     display: flex;
+                    align-content: stretch;
+                    justify-content: center;
                 }
                 
                 .article-heading {
@@ -226,6 +231,8 @@
                 
                 .articles {
                     padding: 15px;
+                    margin-left: 78px;
+                    margin-right: -14px;
                 }
                 
                 .collections {
@@ -299,11 +306,13 @@
                     /* background-color: blue; */
                     margin-top: 10px;
                     text-align: right;
-                    width: 1058px;
+                    width: 1270px;
                 }
                 
                 .see-more p {
                     color: #E02C6DDE;
+                    font-weight: bold;
+                    font-size: 18px;
                 }
                 
                 .fa-long-arrow-alt-right {
