@@ -1,0 +1,132 @@
+@media (max-width:410px) {
+    .influencer-products {
+        flex-direction: column;
+        height: 1100px;
+        justify-content: center;
+        align-items: center;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .left-nav {
+        justify-content: left;
+        align-items: left;
+        height: 90px;
+    }
+    .left-nav h1 {
+        margin-right: 580px;
+        margin-left: 14px;
+    }
+    .right-nav {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+    }
+    .right-nav ul {
+        flex-direction: column;
+        width: 150px;
+        padding-left: 0px;
+    }
+    /* ==================================Pre==Book==Section== */
+    .pre-book {
+        margin-top: 50px;
+        margin-left: -115px;
+        /* margin-right: 400px; */
+        height: 800px;
+        width: 400px;
+        flex-direction: column;
+        /* background-color: rgb(226, 96, 96); */
+    }
+    .left-heading {
+        width: 250px;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        /* background-color: green; */
+    }
+    .heading,
+    .para,
+    .link-btn {
+        padding-left: 90px;
+        margin-bottom: 40px;
+    }
+    /* <!-- -----camera image is here --> */
+    .right-img img {
+        width: 400px;
+        height: 370px;
+        /* background-color: rgb(2, 0, 128); */
+    }
+    /* ===================================Company===logo====== */
+    .company-logs {
+        margin-top: 180px;
+        width: 130px;
+        height: 200px;
+        margin-left: 110px;
+    }
+    .company-logs ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .company-logs ul li {
+        justify-content: left;
+        align-items: left;
+    }
+    hr {
+        margin-left: -80px;
+        margin-right: 750px;
+        align-items: center;
+        width: 330px;
+    }
+    /* =======================================Articles================== */
+    .article-heading {
+        margin-top: 180px;
+        margin-left: -70px;
+        width: 230px;
+        /* background-color: bisque; */
+    }
+    .main-articles {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .flex-collections {
+        display: flex;
+        flex-direction: column;
+        /* background-color: blueviolet; */
+    }
+    .articles {
+        margin-left: -35px;
+    }
+    /* ============================See==more=============================================== */
+    .see-more {
+        /* background-color: brown; */
+        margin-left: -750px;
+    }
+    /* ============================Learning===section========================================== */
+    .article-heading-two {
+        margin-top: 30px;
+        margin-left: -90px;
+        font-size: 15px;
+    }
+    .learn-photography {
+        display: flex;
+        flex-direction: column;
+        margin-left: -20px;
+        margin-top: 50px;
+        padding-top: 50px;
+        height: 800px;
+        line-height: 150px;
+    }
+    /* =========================================Footer=========================== */
+    footer {
+        width: 360px;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0px;
+    }
+}
