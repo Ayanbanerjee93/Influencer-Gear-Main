@@ -128,9 +128,7 @@
                 }
                 
                 .fa-long-arrow-alt-right {
-                    position: relative;
                     width: 25px;
-                    height: -12px;
                     left: 3px;
                     top: 0px;
                 }
@@ -189,18 +187,142 @@
                 
                 .main-articles {
                     margin-top: 100px;
+                    margin-left: 50px;
+                    margin-right: 120px;
+                }
+                
+                .flex-collections {
+                    display: flex;
                 }
                 
                 .article-heading {
-                    color: #3A3A3A;
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 14px;
-                    line-height: 70px;
                     text-align: center;
                     /* background-color: green; */
+                    padding-left: 89px;
                 }
-                /* -----------------------------------------------------Article------ */
                 
-                .articles {}
-                /*====================================Main--&--Articles==ends=here===============================*/
+                .article-heading h1 {
+                    color: #3A3A3A;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 30px;
+                    line-height: 70px;
+                }
+                /* ============================================================================= */
+                /* ------------------------------------------------All---Article------ */
+                
+                .articles {
+                    padding: 15px;
+                }
+                
+                .collections {
+                    margin-top: 60px;
+                    /* border: 1px solid; */
+                    border-radius: 3px;
+                    width: 297px;
+                    height: 476px;
+                    padding-top: 17px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    background: #FFFFFF;
+                    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+                    transition-property: box-shadow;
+                    transition-duration: .7s;
+                }
+                
+                .collections:hover {
+                    box-shadow: 0px 0px 8px #888888;
+                }
+                
+                .collection-img {
+                    width: 302px;
+                    height: 258px;
+                }
+                
+                .collection-header {
+                    line-height: 40px;
+                    font-Weight: normal;
+                    font-Style: normal;
+                    font-Size: 28px;
+                    line-height: 70px;
+                    color: #18191F;
+                }
+                
+                .collection-price {
+                    line-height: 150%;
+                    color: #000000DE;
+                }
+                
+                .collection-rating {
+                    color: #5E6366;
+                }
+                
+                .fa-star {
+                    color: #FB8200;
+                }
+                
+                .fa-star-half-alt {
+                    color: #FB8200;
+                }
+                
+                .collection-description {
+                    padding-top: 5px;
+                    line-height: 143%;
+                    color: #787885;
+                }
+                /* ---------------------------------------see more------------- */
+                
+                .see-more {
+                    /* background-color: blue; */
+                    margin-top: 10px;
+                    text-align: right;
+                    width: 1058px;
+                }
+                
+                .see-more p {
+                    color: #E02C6DDE;
+                }
+                
+                .fa-long-arrow-alt-right {
+                    top: 4px;
+                }
+                /* *====================================Main---Articles==ends=here===============================*/
+                /* ==================================Footer==Starts==Here=================== */
+                
+                footer {
+                    display: flex;
+                    flex-direction: column;
+                    background-color: black;
+                    height: 100%;
+                    width: 100%;
+                    color: #FFFFFF;
+                    padding: 17px;
+                }
+                
+                footer h3 {
+                    font-family: Poppins;
+                    font-weight: bolder;
+                    font-size: 20px;
+                    line-height: 36px;
+                }
+                
+                .footer-para {
+                    font-family: Manrope;
+                    font-size: 10px;
+                    line-height: 20px;
+                    text-align: center;
+                }
+                
+                .footer-logo ul {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: flex-start;
+                    padding: 9px;
+                }
+                
+                .footer-logo ul li {
+                    /* background-color: aqua; */
+                    list-style-type: none;
+                    padding: 9px;
+                }
+                /* ==================================Footer==Ends==Here=================== */
